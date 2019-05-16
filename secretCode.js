@@ -20,12 +20,12 @@ window.addEventListener("keyup", e => {
 
   if (pressedKeys.join("").includes(sharkPassword)) {
     passwordSplicer(sharkPassword);
-    console.log("SHARKS!!!");
+    sharkify_add();
   } else if (pressedKeys.join("").includes(unicornPassword)) {
     passwordSplicer(unicornPassword);
-    console.log("UNICORN!!!");
+    cornify_add();
   } else if (pressedKeys.join("").includes(hasselhoffPassword)) {
     passwordSplicer(hasselhoffPassword);
-    console.log("DAVID!!!");
+    hoffify_add();
   }
 });
